@@ -4,4 +4,4 @@ from .models import Moviedata
 class MovieSerializar(serializers.ModelSerializer):
     class Meta:
         model = Moviedata
-        fields = ['id', 'name', 'duration', 'rating']
+        fields = ['id', 'name', 'duration', 'rating', 'genre']
